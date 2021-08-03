@@ -1,5 +1,5 @@
 {
-  "name": "vue-hook",
+  "name": "@mintjamsinc/vue-hook",
   "version": "1.0.0",
   "description": "A reusable hook directive for Vue.js.",
   "main": "dist/bundle.js",
