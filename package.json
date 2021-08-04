@@ -1,7 +1,7 @@
 {
   "name": "@mintjamsinc/vue-hook",
   "version": "1.0.0",
-  "description": "A reusable hook directive for Vue.js.",
+  "description": "A reusable hook directive for Vue.js 2.x.",
   "main": "dist/bundle.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
