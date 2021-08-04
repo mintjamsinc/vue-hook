@@ -4,7 +4,7 @@ A reusable hook directive for [Vue.js](https://github.com/vuejs/vue) 2.x.
 ## Installation
 
 ```sh
-$ npm install --save-dev @mintjamsinc/vee-hook
+$ npm install --save-dev @mintjamsinc/vue-hook
 ```
 
 ## Usage
