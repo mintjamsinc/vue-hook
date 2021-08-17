@@ -15,7 +15,7 @@ Vue.use(VueHook);
 ```
 
 ```vue
-<div v-hook="{bind: onBind, inserted: onInserted, updated: onUpdated, componentUpdated: onComponentUpdated, unbind: onUnbind}">
+<div v-hook="{bind: onBind, inserted: onInserted, update: onUpdate, componentUpdated: onComponentUpdated, unbind: onUnbind}">
 </div>
 ```
 
@@ -24,7 +24,7 @@ export default {
   methods: {
     onBind() {},
     onInserted() {},
-    onUpdated() {},
+    onUpdate() {},
     onComponentUpdated() {},
     onUnbind() {},
   },

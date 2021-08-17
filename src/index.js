@@ -2,7 +2,7 @@
 
 import Vue from 'vue';
 
-const version = '1.0.2';
+const version = '1.0.3';
 
 const compatible = (/^2\./).test(Vue.version);
 if (!compatible) {
@@ -28,9 +28,9 @@ const VueHook = {
 					}
 				} catch (ex) {/* ignore */}
 			},
-			updated(el, binding, vnode, oldVnode) {
+			update(el, binding, vnode, oldVnode) {
 				try {
-					let hook = binding.value.updated;
+					let hook = binding.value.update;
 					if (typeof hook === 'function') {
 						hook(el, binding, vnode, oldVnode);
 					}
